@@ -1,1 +1,22 @@
 This is where I will be posting my PHP notes!
+
+
+The book I learning PHP from is Learning PHP, MySQL & JavaScript by Robin Nixon
+
+Chapter 3: Introduction to PHP
+  To trigger the PHP command use the open and closing tags <?php ... ?>
+    An example would be:
+      <?php
+        $txt = "PHP";
+        echo "I love $txt!";
+      ?>
+  To comment out line use // or /* */ for multi lines
+    //this line would be commented out
+    /*
+    these lines
+    would be 
+    commented out
+    */
+  Must place a $ infront of all variables  
+  
+  
