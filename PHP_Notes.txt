@@ -18,5 +18,25 @@ Chapter 3: Introduction to PHP
     commented out
     */
   Must place a $ infront of all variables  
-  
+    for instance $x= 10;
+  Variables
+    When it comes to strings, when we declare variables and want to make photocopies of it, 
+    we just declare another variable that is assigned to the same value
+    <?php
+      $username ="Fred Smith";
+      echo $username;
+      echo "<br>";
+      $current_user = $username;
+      echo $current_user;
+    ?>
+   Arrays similar to javascript and many other languages have key value pairs as well
+    $array = array("1" => "PHP code tester Sandbox Online",  
+              "foo" => "bar", 5 , 5 => 89009, 
+              "case" => "Random Stuff: " . rand(100,999),
+              "PHP Version" => phpversion()
+              );
+              
+    foreach( $array as $key => $value ){
+        echo $key."\t=>\t".$value."\n";
+    }
   
