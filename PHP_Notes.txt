@@ -3,6 +3,19 @@ This is where I will be posting my PHP notes!
 
 The book I learning PHP from is Learning PHP, MySQL & JavaScript by Robin Nixon
 
+We can just insert it into the HTML body
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "My first PHP script!";
+?>
+
+</body>
+</html>
+
 Chapter 3: Introduction to PHP------------------------------------------------
   To trigger the PHP command use the open and closing tags <?php ... ?>
           An example would be:
@@ -42,6 +55,12 @@ Chapter 3: Introduction to PHP------------------------------------------------
           }
    Logical Operators
           Very similar to other scripting languages
+          +	Addition	$x + $y	Sum of $x and $y	
+          -	Subtraction	$x - $y	Difference of $x and $y
+          *	Multiplication	$x * $y	Product of $x and $y
+          /	Division	$x / $y	Quotient of $x and $y	
+          %	Modulus	$x % $y	Remainder of $x divided by $y
+          **	Exponentiation	$x ** $y	Result of raising $x to the $y'th power
           
    Strings and Concatenation
           Concatenattion uses the period . to append one string of character to another
