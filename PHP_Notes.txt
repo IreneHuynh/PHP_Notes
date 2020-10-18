@@ -42,6 +42,11 @@ Chapter 3: Introduction to PHP------------------------------------------------
             $current_user = $username;
             echo $current_user;
           ?>
+   Constants 
+        unlike variable constants stay constants, need to be defined, and don't need to start with the $ symbol
+        define("MINSIZE", 50);
+        echo MINSIZE;
+        echo constant("MINSIZE"); // same thing as the previous line
    Arrays 
           similar to javascript and many other languages have key value pairs as well
           $array = array("1" => "PHP code tester Sandbox Online",  
@@ -77,3 +82,19 @@ Chapter 3: Introduction to PHP------------------------------------------------
           <<<_END blah blah
           blah blah blah
           _END;
+          
+   Decision Making
+        Vary similar to many coding languages we have if, else if and else
+        if (condition)
+           code to be executed if condition is true;
+        elseif (condition)
+           code to be executed if condition is true;
+        else
+           code to be executed if condition is false;
+   Loop Typtes
+        Again similar to many programming languages the loop types are
+        for − loops through a block of code a specified number of times.
+        while − loops through a block of code if and as long as a specified condition is true.
+        do...while − loops through a block of code once, and then repeats the loop as long as a special condition is true.
+        foreach − loops through a block of code for each element in an array.
+
